@@ -1,0 +1,89 @@
+
+/* CLASSES */
+
+.imagem-logo {
+    background-color: #025F41;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.imagem-logo, img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.barra-pesquisa {
+    background-color: #025F41;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.botaofinalizar {
+    display: none;
+    margin-top: 15%;
+}
+
+.finalizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* CLASSES */
+
+button {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+    margin-top: 3%;
+    background-color: #025F41;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .imagem-logo {
+        margin-top: 10%;
+        margin-bottom: 30px;
+    }
+    .barra-pesquisa {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 750px) {
+    .barra-pesquisa {
+        width: 57%;
+    }
+    .imagem-logo {
+        margin-top: 30%;
+        padding: 0 15px 0 15px;
+    }
+}
